@@ -1,0 +1,14 @@
+.unicorn{width:7vh;
+    height:5vh;
+    position:absolute;
+    background-image: url('/unicorn\ imgs/rainbowUnicorn.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+body{
+    background-image: url('/unicorn\ imgs/racetrack.jpg');
+    
+    
+}
