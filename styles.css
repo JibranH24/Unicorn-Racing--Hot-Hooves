@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url('/unicornImgs/racetrack.jpg');
+    background-image: url('unicornImgs/racetrack.jpg');
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
     overflow-y: hidden;
