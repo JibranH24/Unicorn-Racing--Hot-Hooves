@@ -7,14 +7,26 @@
         <title>Unicorn Racing: Hot Hooves</title>
         <script src='script.js' defer></script>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
-        <audio controls autoplay>
+        <!-- <audio controls autoplay>
             <source src="horse sound/horse sound.mp3" type="audio/ogg">
-            <!-- <source src="horse.mp3" type="audio/mpeg"> --> -->
+             <source src="horse.mp3" type="audio/mpeg"> --> 
           
-        </audio>
-            
-    
+        <!-- </audio> -->
+        <canvas id="finishLine"></canvas>
+     <div id="buttonsAndText">       
+            <button id="startButton">Start Race!</button>
+            <button id=playAgain>Play Again</button>
+
+
+            <p id="winner">Who is going to win?</p>     
+     </div>
+
+
+
     </body>
 </html>
